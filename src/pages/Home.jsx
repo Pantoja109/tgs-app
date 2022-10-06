@@ -7,7 +7,7 @@ export function Home() {
     <div>
       <Header />
       <div className="mt-20 grid grid-rows-3 gap-y-4 place-items-center">
-        <Link>
+        <Link to={"/add-client"}>
           <Button version="btn-primary">Alta de cliente</Button>
         </Link>
         <Link>
