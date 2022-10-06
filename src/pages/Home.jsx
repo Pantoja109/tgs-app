@@ -1,7 +1,5 @@
-import { Header } from "../components/Header";
 import { Button } from "../components/Button";
 import { Link } from "react-router-dom";
-import { Footer } from "../components/Footer";
 
 export function Home() {
   return (
@@ -17,7 +15,6 @@ export function Home() {
           <Button version="btn-primary">Reporte clientes</Button>
         </Link>
       </div>
-      <Footer />
     </div>
   );
 }
